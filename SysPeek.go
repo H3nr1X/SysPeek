@@ -48,5 +48,5 @@ func main() {
         log.Fatal(err)
     }
     fmt.Println("MAC address:", as[1])
-    fmt.Print("Public ip:", getip())
+    fmt.Print("Public ip: ", getip())
 }
